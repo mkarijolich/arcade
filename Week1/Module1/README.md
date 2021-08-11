@@ -1,6 +1,7 @@
 # Module 1 - Welcome, Intro to HTML, CSS, and Personal Site Module 01
 
 ## Video link: 
+  - https://www.youtube.com/watch?v=OncsQeEIMic
 
 ## Today we learned about:
 
