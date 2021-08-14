@@ -1,7 +1,9 @@
 # Module 2 - Welcome, Intro to HTML, CSS, and Personal Site Module 01
 
 
-## Today we learned about:
+## Links We Used Today:
+- Box Model: https://www.w3schools.com/css/css_boxmodel.asp
+- CSS Units: https://www.w3schools.com/cssref/css_units.asp
 
 ### CSS
 - CSS can be written in its own stylesheet (commonly `style.css`)
