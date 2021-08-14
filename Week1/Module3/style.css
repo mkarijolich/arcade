@@ -1,0 +1,85 @@
+/* What is CSS Normal Flow?
+
+The default flow of the elements on a webpage 
+Normal flow: top down, left to right 
+This can be overriden by CSS styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    box-sizing:border-box; /* it will stop elements from becoming bigger than their parent elements*/
+}
+
+li {
+    font-size: 2em;
+}
+
+img {
+    width: 20%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: .5rem solid lightgray;
+}
+
+img:hover {
+    border-color: lightblue;
+}
+
+ol {
+    clear: left;
+}
+
+.picturelabel {
+    background-color: coral;
+    position: absolute;
+    left: 15%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 1%;
+    border-radius: .5rem;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+#message-form {
+    background-color: lightgray;
+    padding: 2%;
+}
+
+#message-form > * {
+    display:block;
+    margin: 10px;
+}
+
+header, footer {
+    border: .5rem solid black;
+    background-color: gray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    display:block;
+    /* padding: 2rem; */
+}
+
+footer .menu-last{
+    float: right;
+}
+
+footer nav {
+    display:inline;
+    padding: .5rem;
+}
+
+body {
+    background-color: lightskyblue;
+}
