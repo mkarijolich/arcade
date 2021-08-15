@@ -1,7 +1,7 @@
 # Module 2 - Welcome, Intro to HTML, CSS, and Personal Site Module 01
 
 # YouTube link: 
-
+https://youtu.be/-70i_g4p6w4
 
 ## Links We Used Today:
 - CSS Float: https://www.w3schools.com/cssref/pr_class_float.asp
