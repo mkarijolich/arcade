@@ -1,7 +1,7 @@
 # Module 2 - Welcome, Intro to HTML, CSS, and Personal Site Module 01
 
 # YouTube link: 
-https://youtu.be/OncsQeEIMic
+https://www.youtube.com/watch?v=BWygedmxQ54&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=2
 
 ## Links We Used Today:
 - Box Model: https://www.w3schools.com/css/css_boxmodel.asp
