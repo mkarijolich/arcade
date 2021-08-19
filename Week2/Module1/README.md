@@ -1,7 +1,10 @@
 # Module 1 - CSS Flexbox, Qwirty Module 01
 
-# YouTube link: 
+# YouTube upload:
+[📺 Link](https://youtu.be/d36C6pFjFbU?list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV)
 
+# Zoom recording upload, with searchable transcript and chat history:
+[📺 Link](https://fullstackacademy.zoom.us/rec/share/wwpK2alp5WPpXmgScleTI11tc05-vCxOqgHcwgiuv4FOdRn2xi445fk3nI94RIfP.Ht4m4ZNpKTI-Rcdl?startTime=1629243067000)
 
 ## Links We Used Today:
 - Flexbox Tricks: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
