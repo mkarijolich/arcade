@@ -9,9 +9,11 @@
     border-radius: .2rem;
   }
   
-  /* Apply the following styles to the .niece-nephew elements within a .sibling that is a sibling of the .child within the #selectors.  
+  /* Apply the following styles to the .niece-nephew elements within a .sibling 
+  that is a sibling of the .child within the #selectors.  
   COMPARE THAT to using the + (which only selects the sibling that comes directly after) */
-  #selectors {
+  /* + would only choose the first .niece-nephew in the .sibling class */
+  #selectors .child ~ .sibling .niece-nephew {
     color: #587cd1;
     background-color: #FFCB7A;
   }
@@ -22,19 +24,19 @@
   
   /* Apply the following styles to the first LETTER 
   of the first p tag within an article */
-  article  {
+  article > p:first-child:first-letter  {
     float: left;
     font-size: 3rem;
     padding: 0rem .5rem .2rem 0rem;
   }
   /* Apply the following styles to the first LINE 
   of the first p tag within an article */
-  article  {
+  article > p:first-child:first-line  {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
   }
   /* Apply the following styles to the last p tag within an article */
-  article {
+  article > p:last-child {
     font-style: italic;
   }
   
@@ -51,18 +53,18 @@
   
   /* Apply the following styles to all even 
   elements within the #doggy-table element */
-  #doggy-table  {
+  #doggy-table > div:nth-child(even) {
     background-color: darkgray;
   }
   
   /* Apply the following styles to just 
   the first element within the #doggy-table element */
-  #doggy-table {
+  #doggy-table > div:first-child {
     background-color: gray;
   }
   
   /* Apply the following styles to 
   just the last element within the #doggy-table element */
-  #doggy-table  {
+  #doggy-table  > div:last-child{
     border-bottom-width: .1rem;
   }
