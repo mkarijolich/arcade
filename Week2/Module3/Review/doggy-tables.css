@@ -1,0 +1,68 @@
+/*
+ Doggy Selectors
+*/
+
+/* leave as-is */
+#selectors * {
+    border: .1rem solid black;
+    margin: .2rem;
+    border-radius: .2rem;
+  }
+  
+  /* Apply the following styles to the .niece-nephew elements within a .sibling that is a sibling of the .child within the #selectors.  
+  COMPARE THAT to using the + (which only selects the sibling that comes directly after) */
+  #selectors {
+    color: #587cd1;
+    background-color: #FFCB7A;
+  }
+  
+  /*
+   Doggy Articles
+  */
+  
+  /* Apply the following styles to the first LETTER 
+  of the first p tag within an article */
+  article  {
+    float: left;
+    font-size: 3rem;
+    padding: 0rem .5rem .2rem 0rem;
+  }
+  /* Apply the following styles to the first LINE 
+  of the first p tag within an article */
+  article  {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Apply the following styles to the last p tag within an article */
+  article {
+    font-style: italic;
+  }
+  
+  /*
+   Doggy Tables
+  */
+  
+  /* leave as-is */
+  #doggy-table > * {
+    padding: .2rem;
+    border:  solid black;
+    border-width: .1rem .1rem 0rem .1rem;
+  }
+  
+  /* Apply the following styles to all even 
+  elements within the #doggy-table element */
+  #doggy-table  {
+    background-color: darkgray;
+  }
+  
+  /* Apply the following styles to just 
+  the first element within the #doggy-table element */
+  #doggy-table {
+    background-color: gray;
+  }
+  
+  /* Apply the following styles to 
+  just the last element within the #doggy-table element */
+  #doggy-table  {
+    border-bottom-width: .1rem;
+  }

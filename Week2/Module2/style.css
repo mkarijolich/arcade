@@ -89,3 +89,79 @@ a {
   padding: 0;
   text-align: right;
 }
+
+@media screen and (max-width:700px) {
+    body {
+        height: 100%
+    }
+
+    article {
+        margin-right: 0px;
+        margin-bottom:30px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .dog-list-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center ;
+    }
+
+    .single-dog-card {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .single-dog-card img {
+        width:100%;
+    }
+
+    .fluid-text {
+        font-size: 1rem;
+    }
+
+    .desktop-nav {
+        display:none;
+    }
+
+    .mobile-nav {
+        display: block
+    }
+
+}
+@media screen and (max-width: 500px){
+    main nav {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main a {
+        width: 100%;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    a {
+        color: blue;
+    }
+}
+
+@media print and (max-width: 400px){
+    a {
+        color: red;
+    }
+}

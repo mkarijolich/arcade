@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100i,300,400,500,800&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+main {
+  display:flex;
+}
+
+.card {
+  background-color: lightgoldenrodyellow;
+  border: 5px solid #80D9E0;
+  border-radius: .5rem;
+  margin-right: 20px;
+  flex-basis: 300px;
+}
+
+.title {
+  font-size: 1.5em;
+  background-color: #80D9E0;
+  margin: 0;
+}
+
+p {
+  margin-left: 20px;
+  font-size: 1.5em;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.card div {
+  text-align: center;
+}
+
+/*
+************************************
+********** NTH-CHILD DEMO **********
+************************************
+*/
+
+/* The first p tag */
+
+
+/* The last element, regardless of tag name */
+
+
+/* Every third element, regardless of type */
+
+
+/* Every third element, starting at the first element, regardless of type */
+
+/* All odd elements, regardless of type */
+
+
+/* 
+Elements from 3rd to 6th. 
+- First case: Select all elements 3rd and after. 
+- Second case: Select all elements up to 6 
+*/
