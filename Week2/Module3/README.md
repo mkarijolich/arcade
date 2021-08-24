@@ -1,10 +1,7 @@
 # Module 3 - CSS Media Queries, Qwirty Module 03
 
 # YouTube upload:
-
-
-# Zoom recording upload, with searchable transcript and chat history:
-
+[📺 Link](https://www.youtube.com/watch?v=mREkEssXWJc&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=6)
 
 ## Links We Used Today:
 - CSS Selector Reference: https://www.w3schools.com/cssref/css_selectors.asp

@@ -4,7 +4,7 @@
 [📺 Link](https://www.youtube.com/watch?v=snbMeFqK6dQ&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=5)
 
 # Zoom recording upload, with searchable transcript and chat history:
-
+[📺 Link](https://fullstackacademy.zoom.us/rec/play/_i97T36Lwe00YSwifQ0Yk1Rnxq21GkiGp7Z4uf_8od6b4tPp4amlYe5lb87TmjV0MPtuIwFfckTwegbR.PIoGlAjYNPzr9yAI)
 
 
 
