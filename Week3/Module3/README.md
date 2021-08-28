@@ -2,10 +2,10 @@
 
 # YouTube upload:
 
-
 ## Today We Learned About
 
 - TDD
+    - Codepen: https://codepen.io/gcrev93/pen/oNwjZrO?editors=0010 (Dont forget to FORK)
 - Tidy Code
 - Loops (without arrays)
   - While loops
