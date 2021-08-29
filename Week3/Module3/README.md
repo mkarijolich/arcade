@@ -1,6 +1,7 @@
 # Module 3 - JavaScript: TDD, Tidy Code, Loops and Debugging, Caesar Cypher
 
 # YouTube upload:
+[📺 Link](https://www.youtube.com/watch?v=W8C2E96ljaY&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=9)
 
 ## Today We Learned About
 
