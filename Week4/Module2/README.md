@@ -2,7 +2,7 @@
 
 
 # YouTube upload:
-[📺 Link](https://www.youtube.com/watch?v=eRU-MmG8880&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=11)
+[📺 YouTube Lecture Link](https://www.youtube.com/watch?v=eRU-MmG8880&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=11)
 
 ### Array basics
 
