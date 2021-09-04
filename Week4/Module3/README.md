@@ -78,11 +78,30 @@ array = [
   ['2,0', '2,1', '2,2']
 ]
 
-ticTacToe = [
+// array[row][col]
+array[0][0] // '0,0'
+array[1][2] // '1,2'
+array[2][2] // '2,2'
+
+let ticTacToe = [
   ['X', 'O', 'X'],
   [' ', 'X', 'O'],
-  ['O', ' ', 'O']
+  ['O', ' ', ' ']
 ]
+
+ticTacToe[0][0] // 'X'
+ticTacToe[1][2] // 'O'
+ticTacToe[2][2] // ' '
+
+// Help player X win on the diagonal!
+ticTacToe[2][2] = 'X'
+/*
+[
+  ['X', 'O', 'X'],
+  [' ', 'X', 'O'],
+  ['O', ' ', 'X']
+]
+*/
 ```
 
 #### What tools do we have to:
