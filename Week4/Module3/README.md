@@ -2,12 +2,13 @@
 
 
 # YouTube upload:
-[📺 YouTube Lecture Link]()
+[📺 YouTube Lecture Link (TODO)]()
 
 ### Preface
 - Transcript on YT?
 - [Article on computational thinking](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
 - [Coderbyte challenges](https://coderbyte.com/)
+- Know how to debug/run node and JS programs locally?
 
 ### Arrays, continued
 
@@ -93,10 +94,24 @@ ticTacToe = [
 //for (initial; condition; step)
 for(let i = 0; i < array.length; i++) {
   ...
+  console.log(array[i])
+  ...
 }
 ```
 
-- keep track of a result?
+- keep track # of times an element shows up somewhere?
+  - iterate: `for` loop
+  - check if equal: conditional `if (x ==y)`
+  - track: increment var, `count++` or `count += 1`
+    - declare var outside, reassign/increment count in loop in conditional
 ```js
-//
+//how many times does 'a' show up in array?
+let array = ['a', 'x', 'a', 'y', 'a']
+let count = 0;
+for(let i = 0; i < array.length; i++) {
+  if (array[i] === 'a') {
+    count += 1;
+  }
+}
+console.log(count);
 ```
