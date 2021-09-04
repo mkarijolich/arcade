@@ -134,3 +134,6 @@ for(let i = 0; i < array.length; i++) {
 }
 console.log(count);
 ```
+
+### Sudoku Validator
+- [Explanation video](https://www.youtube.com/watch?v=nMdmAR0mlkU)
