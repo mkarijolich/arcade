@@ -2,7 +2,7 @@
 
 
 # YouTube upload:
-[📺 YouTube Lecture Link (TODO)]()
+[📺 YouTube Lecture Link](https://www.youtube.com/watch?v=CZP4o_Ps1Sw&list=PLPLveFltzJ38Asv6HPY9Xx_rmRUbtTffV&index=11)
 
 ### Preface
 - Transcript on YT?
