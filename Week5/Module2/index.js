@@ -136,22 +136,32 @@ let gabbyObject = {
     }
 }
 
-// accessing values in a nested array
-console.log(gabbyObject.jobs[0]) // logs Intructor at Fullstack
+// adding values to nested array
+gabbyObject.jobs.push('Being A Princess')
 console.log(gabbyObject.jobs)
 
-//accessing values in an nested object
+// adding values to nested object
+gabbyObject.dogs.dog3 = 'Sparky'
 console.log(gabbyObject.dogs)
-// these two do the exact same thing
-console.log(gabbyObject.dogs.dog2)
-console.log(gabbyObject['dogs'].dog2)
+
+console.log(gabbyObject)
+
+// accessing values in a nested array
+// console.log(gabbyObject.jobs[0]) // logs Intructor at Fullstack
+// console.log(gabbyObject.jobs)
+
+//accessing values in an nested object
+// console.log(gabbyObject.dogs)
+// // these two do the exact same thing
+// console.log(gabbyObject.dogs.dog2)
+// console.log(gabbyObject['dogs'].dog2)
 
 // looping thru nested array
 for(let i = 0; i < gabbyObject.jobs.length; i++){
-    console.log(gabbyObject.jobs[i])
+    // console.log(gabbyObject.jobs[i])
 }
 
 // looping thru nested object
 for(let key in gabbyObject.dogs){
-    console.log(gabbyObject.dogs[key])
+    // console.log(gabbyObject.dogs[key])
 }
