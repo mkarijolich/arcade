@@ -1,0 +1,18 @@
+Cheat Sheet 1: https://medium.com/@shanikae/git-beginners-cheatsheet-6abbc15f108b
+Cheat Sheet 2: https://education.github.com/git-cheat-sheet-education.pdf
+
+
+Command Line commands to know:
+- ls : list all items (folders and files in directory)
+- mkdir: Makes a new folder
+- cd: changes directory to whatever folder you want to go to
+ - cd .. --> goes up to your parent folder
+ - cd <folder name> --> goes down into a folder already created in the current directory
+- clear: clears command Line
+- code . : opens up VS Code in current folder
+
+Git commands
+- git add . : stage your changes
+- git commit -m "enter a message" : commits changes
+- git push : pushes up changes
+- git pull : pull down changes
