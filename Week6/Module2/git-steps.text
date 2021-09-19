@@ -16,3 +16,5 @@ Git commands
 - git commit -m "enter a message" : commits changes
 - git push : pushes up changes
 - git pull : pull down changes
+- git clone: copy down a repo from github
+- git init: initialize a local repo (must be done in a folder)
