@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF4F1;
+    font-family: 'Monoton', cursive;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    border: 4px dotted #F47068;
+    color : #F47068;
+}
+h2{
+    color:#0E606B;
+}
+
+#nameEntry{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color:#FFC24B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameArea{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.board{
+    display: flex;
+    width:360px;
+    height:360px;
+    flex-wrap: wrap;
+ 
+}
+label, #player1Name, #player2Name{
+    margin-right: 10px;
+}
+
+#play-msg{
+    text-align: center;
+    font-size: 1.5rem;
+    display: none;
+    animation: animate 1.5s linear infinite;
+    color:#FFC24B;
+    margin-bottom: 20px;
+}
+
+#displayPlayer1Name, #displayPlayer2Name{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#playerX{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    color: #1697A6;
+}
+
+#playerO{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    color: #FFC24B;
+}
+
+#displayX{
+    text-align: center;
+    font-size: 3rem;
+    color: #1697A6;
+}
+#displayO{
+    text-align: center;
+    font-size: 3rem;
+    color: #FFC24B;
+}
+
+.styleX{
+    color: #1697A6;
+    font-size: 2rem;
+
+}
+.styleO{
+    color: #FFC24B;
+    font-size: 2rem;
+}
+
+.cell{
+    flex-basis: 33.333%;
+    border: 2px #0E606B dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: none;
+    height: 120px;
+}
+
+.cell:nth-child(n+1) {
+    border-top: none;
+}
+
+.cell:nth-child(3n+1) {
+    border-left: none;
+}
+
+.cell:nth-child(3n+3) {
+    border-right: none;
+}
+
+.cell:nth-child(n+7) {
+    border-bottom: none;
+}
+
+#showText{
+   text-align: center;
+   display: none;
+}
+
+ul{
+    color: #0E606B;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+#playAgain{
+    cursor: pointer;
+}
+
+#playAgain:hover{
+    opacity: 50%;
+}
+
+
+
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0
+    }

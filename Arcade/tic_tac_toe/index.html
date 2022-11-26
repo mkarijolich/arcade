@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div>
+        <main>
+            <h1>Tic-Tac-Toe</h1>
+            <div id = "nameEntry">
+                <label> Enter your name </label>
+                <input id="player1Name" placeholder="Player 1"> </input>
+                <input id="player2Name" placeholder="Player 2"> </input>
+                <button id="submitNameBtn">submit</button>
+            </div>
+            <div id = "play-msg">Let's Play!</div>
+            <div id="gameArea">
+                <div id="playerX">
+                    <p id = "displayPlayer1Name"></p>
+                    <h2>Next PlAyer is</h2>
+                    <P id = "displayX">X</P>
+                    
+                </div>
+                <div id="board" class="board" >
+                    <div data-coordinate="0.0" class="cell"></div>
+                    <div data-coordinate="0.1" class="cell"></div>
+                    <div data-coordinate="0.2" class="cell"></div>
+                    <div data-coordinate="1.0" class="cell"></div>
+                    <div data-coordinate="1.1" class="cell"></div>
+                    <div data-coordinate="1.2" class="cell"></div>
+                    <div data-coordinate="2.0" class="cell"></div>
+                    <div data-coordinate="2.1" class="cell"></div>
+                    <div data-coordinate="2.2" class="cell"></div>
+                </div>
+                <div id="playerO">
+                    <p id = "displayPlayer2Name"></p>
+                    <h2>Next PlAyer is</h2>
+                    <P id = "displayO">O</P>
+                </div>
+            </div>
+            <div id = "showText">
+                <ul>
+                    <li id = "msg"></li>
+                    <li id = "playAgain">Play again?</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
